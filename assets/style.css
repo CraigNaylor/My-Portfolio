@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(170, 170, 170);
+}
+
+.main {
+    display: flex;
+    background-color: aqua;
+   width: fit-content;
+    color: rgb(78, 76, 76);
+    border-radius: 1px;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+#Header {
+    background-color: rgb(26, 26, 82);
+    
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    background-color: aqua;
+    color: rgb(78, 76, 76);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    
+    
+   
+}
+
+.flex-list {
+    justify-content: space-between;
+}
+.flex-container ul {
+    display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+ }
+
+ .flex-container li {
+    padding: 10px;
+   margin: 0;
+   width: auto;
+ }
