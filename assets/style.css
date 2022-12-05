@@ -5,7 +5,7 @@ body {
 .main {
     display: flex;
     background-color: aqua;
-   width: fit-content;
+    width: fit-content;
     color: rgb(78, 76, 76);
     border-radius: 1px;
     align-items: flex-start;
@@ -14,7 +14,7 @@ body {
 
 #Header {
     background-color: rgb(26, 26, 82);
-    
+
 }
 
 li {
@@ -28,23 +28,32 @@ li {
 .flex-container {
     display: flex;
     justify-content: right;
-    align-items:flex-end;
-    
-    
-   
+    align-items: flex-end;
+
+
+
 }
 
 .flex-list {
     justify-content: space-between;
 }
+
 .flex-container ul {
     display: flex;
-      flex-direction: row;
-      justify-content: space-between;
- }
+    flex-direction: row;
+    justify-content: space-between;
+}
 
- .flex-container li {
+.flex-container li {
     padding: 10px;
-   margin: 0;
-   width: auto;
- }
+    margin: 0;
+    width: auto;
+}
+
+#flexImage {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2px;
+    border: 2px;
+}
