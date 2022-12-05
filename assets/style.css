@@ -57,3 +57,18 @@ li {
     padding: 2px;
     border: 2px;
 }
+
+.flexContainerabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    border: 2px;
+    margin-left: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    te
+}
