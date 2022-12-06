@@ -64,7 +64,7 @@ li {
 
 #craig {
     grid-area: p;
-    background-image: url("../assets/Images/banner.png");
+    background-image: url("../Images/banner.png");
 }
 
 .categoryGridProfile {
@@ -122,27 +122,27 @@ li {
 
 #One {
     grid-area: a;
-    background-image: url("../assets/Images/appone.jpg");
+    background-image: url("../Images/appone.jpg");
 }
 
 #Two {
     grid-area: b;
-    background-image: url("../assets/Images/apptwo.jpg");
+    background-image: url("../Images/apptwo.jpg");
 }
 
 #Three {
     grid-area: c;
-    background-image: url("../assets/Images/appthree.png");
+    background-image: url("../Images/appthree.png");
 }
 
 #Four {
     grid-area: d;
-    background-image: url("../assets/Images/appfour.jpg");
+    background-image: url("../Images/appfour.jpg");
 }
 
 #Five {
     grid-area: e;
-    background-image: url("../assets/Images/appfive.jpg");
+    background-image: url("../Images/appfive.jpg");
 }
 
 .categoryGridArea {
