@@ -50,13 +50,36 @@ li {
     width: auto;
 }
 
-#flexImage {
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 2px;
-    border: 2px;
+
+#GridprofileMe {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 320px 320px  ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:
+        "p p "
+        "p p "
+       
 }
+
+#craig {
+    grid-area: p;
+    background-image: url("../assets/Images/banner.png");
+}
+
+.categoryGridProfile {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+    text-decoration: none;
+
+}
+
+
 
 .flexContainerabout {
     display: flex;
@@ -70,5 +93,121 @@ li {
 .heading {
     display: flex;
     justify-content: space-around;
-    te
+    border-right: solid blue 5px;
+    padding-right: 5px;
+}
+
+.para {
+    padding-left: 15px;
+}
+
+.heads {
+    display: flex;
+    justify-content:center;
+    border-bottom: solid blue 5px;
+    padding-bottom: 1px;
+}
+
+#categoryGrid {
+    margin-left: 10px;
+    border-left: 10px;
+    display: grid;
+    grid-template-rows: 320px 320px 320px 320px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "a a a a"
+        "b b c c"
+        "d d e e"
+}
+
+#One {
+    grid-area: a;
+    background-image: url("../assets/Images/appone.jpg");
+}
+
+#Two {
+    grid-area: b;
+    background-image: url("../assets/Images/apptwo.jpg");
+}
+
+#Three {
+    grid-area: c;
+    background-image: url("../assets/Images/appthree.png");
+}
+
+#Four {
+    grid-area: d;
+    background-image: url("../assets/Images/appfour.jpg");
+}
+
+#Five {
+    grid-area: e;
+    background-image: url("../assets/Images/appfive.jpg");
+}
+
+.categoryGridArea {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+    text-decoration: none;
+
+}
+
+.top {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #FF6200;
+
+}
+
+.flexContacts {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 2px;
+   
+
+}
+.contactHead {
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-right: 5px blue solid;
+    padding-right: 5px;
+}
+
+
+
+
+
+.contactLinks{
+    margin-left: 10px;
+    border-left: 10px;
+    display: grid;
+   justify-content: space-around;
+    grid-template-rows: 20px;
+    grid-template-columns: 50px 50px 50px ;
+    grid-template-areas:
+        "m t l" 
+        
+}
+
+.mail{
+    grid-area: m;
+}
+
+.tel{
+  grid-area: t;
+   
+}
+
+.lkdn{
+   grid-area: l;
+    
 }
